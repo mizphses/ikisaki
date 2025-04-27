@@ -21,7 +21,7 @@
         box-sizing: border-box;
       }
       * {
-        font-family: "DotGothic16", sans-serif;
+        font-family: "MS Gothic", sans-serif;
         font-weight: 400;
         margin: 0;
         padding: 0;
@@ -81,10 +81,39 @@
       height: 32px;
       background: #000;
       color: #fff;
-      border: 1px solid #fff;
       font-size: 8px;
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      overflow: hidden;
+      line-height: 1.1;
     "
   >
-    <h1>こんにちは</h1>
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #fff;
+        background: #0c8957;
+        height: 32px;
+      "
+    >
+      <h1>特急</h1>
+      <p>EXPRESS</p>
+    </div>
+    <div
+      style="
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #fff;
+        line-height: 1.2;
+      "
+    >
+      <p style="font-size: 13px">名古屋</p>
+      <p style="font-size: 8px">NAGOYA</p>
+    </div>
   </body>
 </html>
